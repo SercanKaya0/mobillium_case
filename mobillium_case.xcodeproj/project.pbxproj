@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		578CCEFE278F235800A7FD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCEFD278F235800A7FD8A /* AppDelegate.swift */; };
+		578CCF00278F235800A7FD8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCEFF278F235800A7FD8A /* SceneDelegate.swift */; };
+		578CCF02278F235800A7FD8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF01278F235800A7FD8A /* ViewController.swift */; };
+		578CCF05278F235800A7FD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF03278F235800A7FD8A /* Main.storyboard */; };
+		578CCF08278F235800A7FD8A /* mobillium_case.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF06278F235800A7FD8A /* mobillium_case.xcdatamodeld */; };
+		578CCF0A278F235800A7FD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF09278F235800A7FD8A /* Assets.xcassets */; };
+		578CCF0D278F235800A7FD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */; };
+		578CCF18278F235900A7FD8A /* mobillium_caseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF17278F235900A7FD8A /* mobillium_caseTests.swift */; };
+		578CCF22278F235900A7FD8A /* mobillium_caseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF21278F235900A7FD8A /* mobillium_caseUITests.swift */; };
+		578CCF24278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF23278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift */; };
+		578CCF37278F240200A7FD8A /* ClouseTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578CCF14278F235900A7FD8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578CCEF2278F235800A7FD8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578CCEF9278F235800A7FD8A;
+			remoteInfo = mobillium_case;
+		};
+		578CCF1E278F235900A7FD8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578CCEF2278F235800A7FD8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578CCEF9278F235800A7FD8A;
+			remoteInfo = mobillium_case;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		578CCEFA278F235800A7FD8A /* mobillium_case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobillium_case.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CCEFD278F235800A7FD8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		578CCEFF278F235800A7FD8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		578CCF01278F235800A7FD8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578CCF04278F235800A7FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		578CCF07278F235800A7FD8A /* mobillium_case.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobillium_case.xcdatamodel; sourceTree = "<group>"; };
+		578CCF09278F235800A7FD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578CCF0C278F235800A7FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578CCF0E278F235800A7FD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578CCF13278F235900A7FD8A /* mobillium_caseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobillium_caseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CCF17278F235900A7FD8A /* mobillium_caseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseTests.swift; sourceTree = "<group>"; };
+		578CCF1D278F235900A7FD8A /* mobillium_caseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobillium_caseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CCF21278F235900A7FD8A /* mobillium_caseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseUITests.swift; sourceTree = "<group>"; };
+		578CCF23278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClouseTypeAlias.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578CCEF7278F235800A7FD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF10278F235900A7FD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF1A278F235900A7FD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578CCEF1278F235800A7FD8A = {
+			isa = PBXGroup;
+			children = (
+				578CCEFC278F235800A7FD8A /* mobillium_case */,
+				578CCF16278F235900A7FD8A /* mobillium_caseTests */,
+				578CCF20278F235900A7FD8A /* mobillium_caseUITests */,
+				578CCEFB278F235800A7FD8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578CCEFB278F235800A7FD8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578CCEFA278F235800A7FD8A /* mobillium_case.app */,
+				578CCF13278F235900A7FD8A /* mobillium_caseTests.xctest */,
+				578CCF1D278F235900A7FD8A /* mobillium_caseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578CCEFC278F235800A7FD8A /* mobillium_case */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF35278F23F200A7FD8A /* TypeAlias */,
+				578CCF34278F23E200A7FD8A /* DataProvider */,
+				578CCF33278F23D400A7FD8A /* Constants */,
+				578CCF32278F23C700A7FD8A /* AppDelegate */,
+				578CCF31278F23BC00A7FD8A /* Screens */,
+				578CCF30278F23A900A7FD8A /* Routing */,
+				578CCEFD278F235800A7FD8A /* AppDelegate.swift */,
+				578CCEFF278F235800A7FD8A /* SceneDelegate.swift */,
+				578CCF01278F235800A7FD8A /* ViewController.swift */,
+				578CCF03278F235800A7FD8A /* Main.storyboard */,
+				578CCF09278F235800A7FD8A /* Assets.xcassets */,
+				578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */,
+				578CCF0E278F235800A7FD8A /* Info.plist */,
+				578CCF06278F235800A7FD8A /* mobillium_case.xcdatamodeld */,
+			);
+			path = mobillium_case;
+			sourceTree = "<group>";
+		};
+		578CCF16278F235900A7FD8A /* mobillium_caseTests */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF17278F235900A7FD8A /* mobillium_caseTests.swift */,
+			);
+			path = mobillium_caseTests;
+			sourceTree = "<group>";
+		};
+		578CCF20278F235900A7FD8A /* mobillium_caseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF21278F235900A7FD8A /* mobillium_caseUITests.swift */,
+				578CCF23278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift */,
+			);
+			path = mobillium_caseUITests;
+			sourceTree = "<group>";
+		};
+		578CCF30278F23A900A7FD8A /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		578CCF31278F23BC00A7FD8A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		578CCF32278F23C700A7FD8A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		578CCF33278F23D400A7FD8A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		578CCF34278F23E200A7FD8A /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		578CCF35278F23F200A7FD8A /* TypeAlias */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */,
+			);
+			path = TypeAlias;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578CCEF9278F235800A7FD8A /* mobillium_case */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578CCF27278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_case" */;
+			buildPhases = (
+				578CCEF6278F235800A7FD8A /* Sources */,
+				578CCEF7278F235800A7FD8A /* Frameworks */,
+				578CCEF8278F235800A7FD8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobillium_case;
+			productName = mobillium_case;
+			productReference = 578CCEFA278F235800A7FD8A /* mobillium_case.app */;
+			productType = "com.apple.product-type.application";
+		};
+		578CCF12278F235900A7FD8A /* mobillium_caseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578CCF2A278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseTests" */;
+			buildPhases = (
+				578CCF0F278F235900A7FD8A /* Sources */,
+				578CCF10278F235900A7FD8A /* Frameworks */,
+				578CCF11278F235900A7FD8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578CCF15278F235900A7FD8A /* PBXTargetDependency */,
+			);
+			name = mobillium_caseTests;
+			productName = mobillium_caseTests;
+			productReference = 578CCF13278F235900A7FD8A /* mobillium_caseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		578CCF1C278F235900A7FD8A /* mobillium_caseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578CCF2D278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseUITests" */;
+			buildPhases = (
+				578CCF19278F235900A7FD8A /* Sources */,
+				578CCF1A278F235900A7FD8A /* Frameworks */,
+				578CCF1B278F235900A7FD8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578CCF1F278F235900A7FD8A /* PBXTargetDependency */,
+			);
+			name = mobillium_caseUITests;
+			productName = mobillium_caseUITests;
+			productReference = 578CCF1D278F235900A7FD8A /* mobillium_caseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578CCEF2278F235800A7FD8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					578CCEF9278F235800A7FD8A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					578CCF12278F235900A7FD8A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 578CCEF9278F235800A7FD8A;
+					};
+					578CCF1C278F235900A7FD8A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 578CCEF9278F235800A7FD8A;
+					};
+				};
+			};
+			buildConfigurationList = 578CCEF5278F235800A7FD8A /* Build configuration list for PBXProject "mobillium_case" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578CCEF1278F235800A7FD8A;
+			productRefGroup = 578CCEFB278F235800A7FD8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578CCEF9278F235800A7FD8A /* mobillium_case */,
+				578CCF12278F235900A7FD8A /* mobillium_caseTests */,
+				578CCF1C278F235900A7FD8A /* mobillium_caseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578CCEF8278F235800A7FD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578CCF0D278F235800A7FD8A /* LaunchScreen.storyboard in Resources */,
+				578CCF0A278F235800A7FD8A /* Assets.xcassets in Resources */,
+				578CCF05278F235800A7FD8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF11278F235900A7FD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF1B278F235900A7FD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578CCEF6278F235800A7FD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578CCF08278F235800A7FD8A /* mobillium_case.xcdatamodeld in Sources */,
+				578CCF02278F235800A7FD8A /* ViewController.swift in Sources */,
+				578CCF37278F240200A7FD8A /* ClouseTypeAlias.swift in Sources */,
+				578CCEFE278F235800A7FD8A /* AppDelegate.swift in Sources */,
+				578CCF00278F235800A7FD8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF0F278F235900A7FD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578CCF18278F235900A7FD8A /* mobillium_caseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578CCF19278F235900A7FD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578CCF22278F235900A7FD8A /* mobillium_caseUITests.swift in Sources */,
+				578CCF24278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578CCF15278F235900A7FD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578CCEF9278F235800A7FD8A /* mobillium_case */;
+			targetProxy = 578CCF14278F235900A7FD8A /* PBXContainerItemProxy */;
+		};
+		578CCF1F278F235900A7FD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578CCEF9278F235800A7FD8A /* mobillium_case */;
+			targetProxy = 578CCF1E278F235900A7FD8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		578CCF03278F235800A7FD8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578CCF04278F235800A7FD8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578CCF0C278F235800A7FD8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578CCF25278F235900A7FD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		578CCF26278F235900A7FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578CCF28278F235900A7FD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobillium_case/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-case";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578CCF29278F235900A7FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobillium_case/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-case";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		578CCF2B278F235900A7FD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-caseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobillium_case.app/mobillium_case";
+			};
+			name = Debug;
+		};
+		578CCF2C278F235900A7FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-caseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobillium_case.app/mobillium_case";
+			};
+			name = Release;
+		};
+		578CCF2E278F235900A7FD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-caseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mobillium_case;
+			};
+			name = Debug;
+		};
+		578CCF2F278F235900A7FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV42QJYTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "publicapis.mobillium-caseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mobillium_case;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578CCEF5278F235800A7FD8A /* Build configuration list for PBXProject "mobillium_case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CCF25278F235900A7FD8A /* Debug */,
+				578CCF26278F235900A7FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578CCF27278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CCF28278F235900A7FD8A /* Debug */,
+				578CCF29278F235900A7FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578CCF2A278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CCF2B278F235900A7FD8A /* Debug */,
+				578CCF2C278F235900A7FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578CCF2D278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CCF2E278F235900A7FD8A /* Debug */,
+				578CCF2F278F235900A7FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		578CCF06278F235800A7FD8A /* mobillium_case.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				578CCF07278F235800A7FD8A /* mobillium_case.xcdatamodel */,
+			);
+			currentVersion = 578CCF07278F235800A7FD8A /* mobillium_case.xcdatamodel */;
+			path = mobillium_case.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 578CCEF2278F235800A7FD8A /* Project object */;
+}
