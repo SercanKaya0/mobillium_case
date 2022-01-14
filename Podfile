@@ -34,10 +34,7 @@ target 'DataSource' do
   target 'DataSourceTests' do
     inherit! :search_paths
     # Pods for testing
-    
-    # Network
-    pod 'Alamofire', '~> 5.5'
-    
+        
   end
   
 end
