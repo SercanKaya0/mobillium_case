@@ -8,9 +8,6 @@
 import UIKit
 
 final class HomeDetailViewController: BaseViewController<HomeDetailViewModel> {
-    
-    
-    
      private let imageView : UIImageView = {
            let imageView = UIImageView()
             imageView.contentMode = .scaleToFill
@@ -156,14 +153,13 @@ extension HomeDetailViewController {
         addNavigationBar()
         addImageView()
         addImdbLogo()
-    addStarIcon()
-    addRateLabel()
+        addStarIcon()
+        addRateLabel()
         addRateCountLabel()
         addDotImageView()
         addDateLabel()
         addTitleLabel()
-
-       addDescriptionLabel()
+        addDescriptionLabel()
     }
     
     private func addImageView(){

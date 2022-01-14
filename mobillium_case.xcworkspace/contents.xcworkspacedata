@@ -5,6 +5,9 @@
       location = "group:DataSource/DataSource.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:UIComponents/UIComponents.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:mobillium_case.xcodeproj">
    </FileRef>
    <FileRef

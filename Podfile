@@ -38,3 +38,19 @@ target 'DataSource' do
   end
   
 end
+target 'UIComponents' do
+  
+  project 'UIComponents/UIComponents.xcodeproj'
+  
+  # Pods for UIComponents
+  
+  # Network
+
+    
+  target 'UIComponentsTests' do
+    inherit! :search_paths
+    # Pods for testing
+        
+  end
+  
+end

@@ -15,11 +15,9 @@ extension HomeDetailRoute where Self: RouterProtocol {
         let router = HomeDetailRouter()
         let viewModel = HomeDetailViewModel(id: id, router: router)
         let viewController = HomeDetailViewController(viewModel: viewModel)
-        
         let transition = ModalTransition()
         router.viewController = viewController
         router.openTransition = transition
-        
         open(viewController, transition: transition)
     }
 }

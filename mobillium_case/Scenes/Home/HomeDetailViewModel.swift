@@ -30,14 +30,7 @@ protocol HomeDetailViewProtocol: HomeDetailViewDataSource, HomeDetailViewEventSo
 }
 
 final class HomeDetailViewModel: BaseViewModel<HomeDetailRouter>, HomeDetailViewProtocol {
-
-    
-  
-    
-    
     var reloadDetailData: VoidClosure?
-    
-    
     var id: Int?
     var title: String?
     var subTitle: String?
@@ -45,8 +38,6 @@ final class HomeDetailViewModel: BaseViewModel<HomeDetailRouter>, HomeDetailView
     var date: String?
     var rate: Double?
     var rateCount: Int?
-
-
     init(id: Int?,router: HomeDetailRouter) {
         self.id = id
         super.init(router: router)
@@ -60,10 +51,7 @@ final class HomeDetailViewModel: BaseViewModel<HomeDetailRouter>, HomeDetailView
         self.subTitle = detailModel.overview
         self.rateCount = detailModel.voteCount
     }
-    
 }
-
-
 extension HomeDetailViewModel {
     func getMovieDetail() {
         let request = MoviesDetailRequest(moviesId: id ?? 0)
