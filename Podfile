@@ -8,7 +8,6 @@ workspace 'mobillium_case'
 target 'mobillium_case' do
   project 'mobillium_case.xcodeproj'
 pod 'Alamofire', '~> 5.5'
-pod 'KeychainSwift', '~> 20.0'
 pod 'Kingfisher', '~> 7.0'
 
   # Pods for mobillium_case
