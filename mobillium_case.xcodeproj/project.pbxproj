@@ -7,17 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		578CCEFE278F235800A7FD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCEFD278F235800A7FD8A /* AppDelegate.swift */; };
-		578CCF00278F235800A7FD8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCEFF278F235800A7FD8A /* SceneDelegate.swift */; };
-		578CCF02278F235800A7FD8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF01278F235800A7FD8A /* ViewController.swift */; };
-		578CCF05278F235800A7FD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF03278F235800A7FD8A /* Main.storyboard */; };
 		578CCF08278F235800A7FD8A /* mobillium_case.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF06278F235800A7FD8A /* mobillium_case.xcdatamodeld */; };
-		578CCF0A278F235800A7FD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF09278F235800A7FD8A /* Assets.xcassets */; };
-		578CCF0D278F235800A7FD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */; };
 		578CCF18278F235900A7FD8A /* mobillium_caseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF17278F235900A7FD8A /* mobillium_caseTests.swift */; };
 		578CCF22278F235900A7FD8A /* mobillium_caseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF21278F235900A7FD8A /* mobillium_caseUITests.swift */; };
 		578CCF24278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF23278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift */; };
-		578CCF37278F240200A7FD8A /* ClouseTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */; };
+		578CCFA9278F25F700A7FD8A /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF85278F25F600A7FD8A /* AppRouter.swift */; };
+		578CCFAA278F25F700A7FD8A /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF87278F25F600A7FD8A /* Animator.swift */; };
+		578CCFAB278F25F700A7FD8A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF88278F25F600A7FD8A /* Router.swift */; };
+		578CCFAC278F25F700A7FD8A /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF8A278F25F600A7FD8A /* ModalTransition.swift */; };
+		578CCFAD278F25F700A7FD8A /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF8B278F25F600A7FD8A /* PlaceOnWindowTransition.swift */; };
+		578CCFAE278F25F700A7FD8A /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF8C278F25F600A7FD8A /* Transition.swift */; };
+		578CCFAF278F25F700A7FD8A /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF8D278F25F600A7FD8A /* PushTransition.swift */; };
+		578CCFB0278F25F700A7FD8A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF91278F25F600A7FD8A /* BaseViewController.swift */; };
+		578CCFB1278F25F700A7FD8A /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF92278F25F600A7FD8A /* TransparentNavigationController.swift */; };
+		578CCFB2278F25F700A7FD8A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF93278F25F600A7FD8A /* BaseViewModel.swift */; };
+		578CCFB3278F25F700A7FD8A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF94278F25F600A7FD8A /* MainNavigationController.swift */; };
+		578CCFB4278F25F700A7FD8A /* ClouseTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF96278F25F600A7FD8A /* ClouseTypeAlias.swift */; };
+		578CCFB5278F25F700A7FD8A /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF98278F25F600A7FD8A /* DataProvider.swift */; };
+		578CCFB6278F25F700A7FD8A /* ApiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF99278F25F600A7FD8A /* ApiLogger.swift */; };
+		578CCFB7278F25F700A7FD8A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF9B278F25F600A7FD8A /* Keychain.swift */; };
+		578CCFB8278F25F700A7FD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCF9D278F25F600A7FD8A /* AppDelegate.swift */; };
+		578CCFB9278F25F700A7FD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578CCF9F278F25F600A7FD8A /* Assets.xcassets */; };
+		578CCFBA278F25F700A7FD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578CCFA0278F25F700A7FD8A /* LaunchScreen.storyboard */; };
+		578CCFBC278F260B00A7FD8A /* DataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578CCFBB278F260B00A7FD8A /* DataSource.framework */; };
+		578CCFBD278F260B00A7FD8A /* DataSource.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 578CCFBB278F260B00A7FD8A /* DataSource.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		578CCFC4278F2A6B00A7FD8A /* ApiRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFC3278F2A6B00A7FD8A /* ApiRequestInterceptor.swift */; };
+		578CCFD1278F32C600A7FD8A /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFCE278F32C600A7FD8A /* HomeScreenRouter.swift */; };
+		578CCFD2278F32C600A7FD8A /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFCF278F32C600A7FD8A /* HomeScreenViewController.swift */; };
+		578CCFD3278F32C600A7FD8A /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFD0278F32C600A7FD8A /* HomeScreenViewModel.swift */; };
+		578CCFD5278F32D700A7FD8A /* HomeScreenRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFD4278F32D700A7FD8A /* HomeScreenRoute.swift */; };
+		578CCFDE278F337200A7FD8A /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCFDD278F337200A7FD8A /* ReusableProtocol.swift */; };
+		5794F50D278F3D5800DD8D19 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F50B278F3D5800DD8D19 /* HomeHeaderCell.swift */; };
+		5794F50E278F3D5800DD8D19 /* HomeHeaderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F50C278F3D5800DD8D19 /* HomeHeaderCellModel.swift */; };
+		5794F511278F3D6700DD8D19 /* HomeHeaderSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F50F278F3D6700DD8D19 /* HomeHeaderSliderCell.swift */; };
+		5794F512278F3D6700DD8D19 /* HomeHeaderSliderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F510278F3D6700DD8D19 /* HomeHeaderSliderCellModel.swift */; };
+		5794F515278F3D7400DD8D19 /* HomeBodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F513278F3D7400DD8D19 /* HomeBodyCell.swift */; };
+		5794F516278F3D7400DD8D19 /* HomeBodyCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F514278F3D7400DD8D19 /* HomeBodyCellModel.swift */; };
+		5794F518278F736100DD8D19 /* LoadingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F517278F736100DD8D19 /* LoadingProtocol.swift */; };
+		5794F51B278F738E00DD8D19 /* LoadingActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F51A278F738E00DD8D19 /* LoadingActivityIndicator.swift */; };
+		5794F5212790287200DD8D19 /* HomeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F51E2790287200DD8D19 /* HomeDetailRouter.swift */; };
+		5794F5222790287200DD8D19 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F51F2790287200DD8D19 /* HomeDetailViewController.swift */; };
+		5794F5232790287200DD8D19 /* HomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F5202790287200DD8D19 /* HomeDetailViewModel.swift */; };
+		5794F52527906ECA00DD8D19 /* HomeDetailRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794F52427906ECA00DD8D19 /* HomeDetailRoute.swift */; };
+		615123DD3FB71133C4E7F67E /* Pods_mobillium_case_mobillium_caseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87663E388688FC6EF0D0C463 /* Pods_mobillium_case_mobillium_caseUITests.framework */; };
+		73CFDB72ECFC3DF61F625FB8 /* Pods_mobillium_case.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DAD7B09A6E480FF3E27026 /* Pods_mobillium_case.framework */; };
+		BA6064CFC552856670B1E491 /* Pods_mobillium_caseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B8DB9D8C537F138A507DFE /* Pods_mobillium_caseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +71,75 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		578CCFBE278F260B00A7FD8A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				578CCFBD278F260B00A7FD8A /* DataSource.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0989B8CF3B49736DB1921301 /* Pods-mobillium_case.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_case.debug.xcconfig"; path = "Target Support Files/Pods-mobillium_case/Pods-mobillium_case.debug.xcconfig"; sourceTree = "<group>"; };
+		447FE7CB90396A0883C1A975 /* Pods-mobillium_case.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_case.release.xcconfig"; path = "Target Support Files/Pods-mobillium_case/Pods-mobillium_case.release.xcconfig"; sourceTree = "<group>"; };
+		44DAD7B09A6E480FF3E27026 /* Pods_mobillium_case.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobillium_case.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53795DC8C3B64E35A977F034 /* Pods-mobillium_case-mobillium_caseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_case-mobillium_caseUITests.release.xcconfig"; path = "Target Support Files/Pods-mobillium_case-mobillium_caseUITests/Pods-mobillium_case-mobillium_caseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		578CCEFA278F235800A7FD8A /* mobillium_case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobillium_case.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		578CCEFD278F235800A7FD8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		578CCEFF278F235800A7FD8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		578CCF01278F235800A7FD8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		578CCF04278F235800A7FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578CCF07278F235800A7FD8A /* mobillium_case.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobillium_case.xcdatamodel; sourceTree = "<group>"; };
-		578CCF09278F235800A7FD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		578CCF0C278F235800A7FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578CCF0E278F235800A7FD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578CCF13278F235900A7FD8A /* mobillium_caseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobillium_caseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		578CCF17278F235900A7FD8A /* mobillium_caseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseTests.swift; sourceTree = "<group>"; };
 		578CCF1D278F235900A7FD8A /* mobillium_caseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobillium_caseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		578CCF21278F235900A7FD8A /* mobillium_caseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseUITests.swift; sourceTree = "<group>"; };
 		578CCF23278F235900A7FD8A /* mobillium_caseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobillium_caseUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClouseTypeAlias.swift; sourceTree = "<group>"; };
+		578CCF85278F25F600A7FD8A /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		578CCF87278F25F600A7FD8A /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		578CCF88278F25F600A7FD8A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		578CCF8A278F25F600A7FD8A /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		578CCF8B278F25F600A7FD8A /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
+		578CCF8C278F25F600A7FD8A /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		578CCF8D278F25F600A7FD8A /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		578CCF91278F25F600A7FD8A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		578CCF92278F25F600A7FD8A /* TransparentNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		578CCF93278F25F600A7FD8A /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		578CCF94278F25F600A7FD8A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		578CCF96278F25F600A7FD8A /* ClouseTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClouseTypeAlias.swift; sourceTree = "<group>"; };
+		578CCF98278F25F600A7FD8A /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		578CCF99278F25F600A7FD8A /* ApiLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiLogger.swift; sourceTree = "<group>"; };
+		578CCF9B278F25F600A7FD8A /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		578CCF9D278F25F600A7FD8A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		578CCF9F278F25F600A7FD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578CCFA0278F25F700A7FD8A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578CCFBB278F260B00A7FD8A /* DataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CCFC3278F2A6B00A7FD8A /* ApiRequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestInterceptor.swift; sourceTree = "<group>"; };
+		578CCFCE278F32C600A7FD8A /* HomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
+		578CCFCF278F32C600A7FD8A /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		578CCFD0278F32C600A7FD8A /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		578CCFD4278F32D700A7FD8A /* HomeScreenRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRoute.swift; sourceTree = "<group>"; };
+		578CCFDD278F337200A7FD8A /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		5794F50B278F3D5800DD8D19 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
+		5794F50C278F3D5800DD8D19 /* HomeHeaderCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCellModel.swift; sourceTree = "<group>"; };
+		5794F50F278F3D6700DD8D19 /* HomeHeaderSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderSliderCell.swift; sourceTree = "<group>"; };
+		5794F510278F3D6700DD8D19 /* HomeHeaderSliderCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderSliderCellModel.swift; sourceTree = "<group>"; };
+		5794F513278F3D7400DD8D19 /* HomeBodyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBodyCell.swift; sourceTree = "<group>"; };
+		5794F514278F3D7400DD8D19 /* HomeBodyCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBodyCellModel.swift; sourceTree = "<group>"; };
+		5794F517278F736100DD8D19 /* LoadingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingProtocol.swift; sourceTree = "<group>"; };
+		5794F51A278F738E00DD8D19 /* LoadingActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingActivityIndicator.swift; sourceTree = "<group>"; };
+		5794F51E2790287200DD8D19 /* HomeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailRouter.swift; sourceTree = "<group>"; };
+		5794F51F2790287200DD8D19 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		5794F5202790287200DD8D19 /* HomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewModel.swift; sourceTree = "<group>"; };
+		5794F52427906ECA00DD8D19 /* HomeDetailRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailRoute.swift; sourceTree = "<group>"; };
+		87663E388688FC6EF0D0C463 /* Pods_mobillium_case_mobillium_caseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobillium_case_mobillium_caseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887987A81733ED7983C91027 /* Pods-mobillium_case-mobillium_caseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_case-mobillium_caseUITests.debug.xcconfig"; path = "Target Support Files/Pods-mobillium_case-mobillium_caseUITests/Pods-mobillium_case-mobillium_caseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8739511AB4791B9AB790EF /* Pods-mobillium_caseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_caseTests.release.xcconfig"; path = "Target Support Files/Pods-mobillium_caseTests/Pods-mobillium_caseTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC99F3DDF9F6B8DDA3EB031F /* Pods-mobillium_caseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobillium_caseTests.debug.xcconfig"; path = "Target Support Files/Pods-mobillium_caseTests/Pods-mobillium_caseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B8DB9D8C537F138A507DFE /* Pods_mobillium_caseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobillium_caseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578CCFBC278F260B00A7FD8A /* DataSource.framework in Frameworks */,
+				73CFDB72ECFC3DF61F625FB8 /* Pods_mobillium_case.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6064CFC552856670B1E491 /* Pods_mobillium_caseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +164,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615123DD3FB71133C4E7F67E /* Pods_mobillium_case_mobillium_caseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44230421FFBAD175FEF0DE3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0989B8CF3B49736DB1921301 /* Pods-mobillium_case.debug.xcconfig */,
+				447FE7CB90396A0883C1A975 /* Pods-mobillium_case.release.xcconfig */,
+				887987A81733ED7983C91027 /* Pods-mobillium_case-mobillium_caseUITests.debug.xcconfig */,
+				53795DC8C3B64E35A977F034 /* Pods-mobillium_case-mobillium_caseUITests.release.xcconfig */,
+				AC99F3DDF9F6B8DDA3EB031F /* Pods-mobillium_caseTests.debug.xcconfig */,
+				9C8739511AB4791B9AB790EF /* Pods-mobillium_caseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		578CCEF1278F235800A7FD8A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +191,8 @@
 				578CCF16278F235900A7FD8A /* mobillium_caseTests */,
 				578CCF20278F235900A7FD8A /* mobillium_caseUITests */,
 				578CCEFB278F235800A7FD8A /* Products */,
+				44230421FFBAD175FEF0DE3F /* Pods */,
+				B3AC9DF7841434168FEECBA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,18 +209,15 @@
 		578CCEFC278F235800A7FD8A /* mobillium_case */ = {
 			isa = PBXGroup;
 			children = (
-				578CCF35278F23F200A7FD8A /* TypeAlias */,
-				578CCF34278F23E200A7FD8A /* DataProvider */,
-				578CCF33278F23D400A7FD8A /* Constants */,
-				578CCF32278F23C700A7FD8A /* AppDelegate */,
-				578CCF31278F23BC00A7FD8A /* Screens */,
-				578CCF30278F23A900A7FD8A /* Routing */,
-				578CCEFD278F235800A7FD8A /* AppDelegate.swift */,
-				578CCEFF278F235800A7FD8A /* SceneDelegate.swift */,
-				578CCF01278F235800A7FD8A /* ViewController.swift */,
-				578CCF03278F235800A7FD8A /* Main.storyboard */,
-				578CCF09278F235800A7FD8A /* Assets.xcassets */,
-				578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */,
+				578CCF9C278F25F600A7FD8A /* AppDelegate */,
+				578CCF9A278F25F600A7FD8A /* Constants */,
+				578CCFA0278F25F700A7FD8A /* LaunchScreen.storyboard */,
+				578CCF97278F25F600A7FD8A /* DataProvider */,
+				578CCF9E278F25F600A7FD8A /* Resource */,
+				578CCF83278F25F600A7FD8A /* Routing */,
+				578CCF79278F25F600A7FD8A /* Scenes */,
+				578CCF95278F25F600A7FD8A /* TypeAlias */,
+				578CCF8F278F25F600A7FD8A /* UIComponents */,
 				578CCF0E278F235800A7FD8A /* Info.plist */,
 				578CCF06278F235800A7FD8A /* mobillium_case.xcdatamodeld */,
 			);
@@ -138,47 +241,186 @@
 			path = mobillium_caseUITests;
 			sourceTree = "<group>";
 		};
-		578CCF30278F23A900A7FD8A /* Routing */ = {
+		578CCF79278F25F600A7FD8A /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				5794F519278F738500DD8D19 /* Loading */,
+				578CCFDC278F335F00A7FD8A /* Protocols */,
+				578CCF90278F25F600A7FD8A /* Base */,
+				578CCFC0278F271500A7FD8A /* MovicesDetail */,
+				578CCFBF278F26D600A7FD8A /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		578CCF83278F25F600A7FD8A /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF84278F25F600A7FD8A /* Routers */,
+				578CCF86278F25F600A7FD8A /* Core */,
+				578CCF89278F25F600A7FD8A /* Transitions */,
+				578CCF8E278F25F600A7FD8A /* Routes */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
 		};
-		578CCF31278F23BC00A7FD8A /* Screens */ = {
+		578CCF84278F25F600A7FD8A /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF85278F25F600A7FD8A /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		578CCF86278F25F600A7FD8A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF87278F25F600A7FD8A /* Animator.swift */,
+				578CCF88278F25F600A7FD8A /* Router.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		578CCF89278F25F600A7FD8A /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF8A278F25F600A7FD8A /* ModalTransition.swift */,
+				578CCF8B278F25F600A7FD8A /* PlaceOnWindowTransition.swift */,
+				578CCF8C278F25F600A7FD8A /* Transition.swift */,
+				578CCF8D278F25F600A7FD8A /* PushTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		578CCF8E278F25F600A7FD8A /* Routes */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Screens;
+			path = Routes;
 			sourceTree = "<group>";
 		};
-		578CCF32278F23C700A7FD8A /* AppDelegate */ = {
+		578CCF8F278F25F600A7FD8A /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = AppDelegate;
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
-		578CCF33278F23D400A7FD8A /* Constants */ = {
+		578CCF90278F25F600A7FD8A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				578CCF91278F25F600A7FD8A /* BaseViewController.swift */,
+				578CCF92278F25F600A7FD8A /* TransparentNavigationController.swift */,
+				578CCF93278F25F600A7FD8A /* BaseViewModel.swift */,
+				578CCF94278F25F600A7FD8A /* MainNavigationController.swift */,
 			);
-			path = Constants;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		578CCF34278F23E200A7FD8A /* DataProvider */ = {
+		578CCF95278F25F600A7FD8A /* TypeAlias */ = {
 			isa = PBXGroup;
 			children = (
+				578CCF96278F25F600A7FD8A /* ClouseTypeAlias.swift */,
+			);
+			path = TypeAlias;
+			sourceTree = "<group>";
+		};
+		578CCF97278F25F600A7FD8A /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF98278F25F600A7FD8A /* DataProvider.swift */,
+				578CCF99278F25F600A7FD8A /* ApiLogger.swift */,
+				578CCFC3278F2A6B00A7FD8A /* ApiRequestInterceptor.swift */,
 			);
 			path = DataProvider;
 			sourceTree = "<group>";
 		};
-		578CCF35278F23F200A7FD8A /* TypeAlias */ = {
+		578CCF9A278F25F600A7FD8A /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				578CCF36278F240200A7FD8A /* ClouseTypeAlias.swift */,
+				578CCF9B278F25F600A7FD8A /* Keychain.swift */,
 			);
-			path = TypeAlias;
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		578CCF9C278F25F600A7FD8A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF9D278F25F600A7FD8A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		578CCF9E278F25F600A7FD8A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				578CCF9F278F25F600A7FD8A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		578CCFBF278F26D600A7FD8A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				578CCFD6278F330000A7FD8A /* Cell */,
+				578CCFCE278F32C600A7FD8A /* HomeScreenRouter.swift */,
+				578CCFCF278F32C600A7FD8A /* HomeScreenViewController.swift */,
+				578CCFD0278F32C600A7FD8A /* HomeScreenViewModel.swift */,
+				578CCFD4278F32D700A7FD8A /* HomeScreenRoute.swift */,
+				5794F51E2790287200DD8D19 /* HomeDetailRouter.swift */,
+				5794F51F2790287200DD8D19 /* HomeDetailViewController.swift */,
+				5794F5202790287200DD8D19 /* HomeDetailViewModel.swift */,
+				5794F52427906ECA00DD8D19 /* HomeDetailRoute.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		578CCFC0278F271500A7FD8A /* MovicesDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovicesDetail;
+			sourceTree = "<group>";
+		};
+		578CCFD6278F330000A7FD8A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5794F50B278F3D5800DD8D19 /* HomeHeaderCell.swift */,
+				5794F50C278F3D5800DD8D19 /* HomeHeaderCellModel.swift */,
+				5794F50F278F3D6700DD8D19 /* HomeHeaderSliderCell.swift */,
+				5794F510278F3D6700DD8D19 /* HomeHeaderSliderCellModel.swift */,
+				5794F513278F3D7400DD8D19 /* HomeBodyCell.swift */,
+				5794F514278F3D7400DD8D19 /* HomeBodyCellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		578CCFDC278F335F00A7FD8A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				578CCFDD278F337200A7FD8A /* ReusableProtocol.swift */,
+				5794F517278F736100DD8D19 /* LoadingProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5794F519278F738500DD8D19 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				5794F51A278F738E00DD8D19 /* LoadingActivityIndicator.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B3AC9DF7841434168FEECBA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578CCFBB278F260B00A7FD8A /* DataSource.framework */,
+				44DAD7B09A6E480FF3E27026 /* Pods_mobillium_case.framework */,
+				87663E388688FC6EF0D0C463 /* Pods_mobillium_case_mobillium_caseUITests.framework */,
+				B7B8DB9D8C537F138A507DFE /* Pods_mobillium_caseTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578CCF27278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_case" */;
 			buildPhases = (
+				1445102E0AE4E8BCAE6948E6 /* [CP] Check Pods Manifest.lock */,
 				578CCEF6278F235800A7FD8A /* Sources */,
 				578CCEF7278F235800A7FD8A /* Frameworks */,
 				578CCEF8278F235800A7FD8A /* Resources */,
+				578CCFBE278F260B00A7FD8A /* Embed Frameworks */,
+				DC64E4DBE423BEB535F2A939 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +450,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578CCF2A278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseTests" */;
 			buildPhases = (
+				984DF729BF50070C3E8E4FB4 /* [CP] Check Pods Manifest.lock */,
 				578CCF0F278F235900A7FD8A /* Sources */,
 				578CCF10278F235900A7FD8A /* Frameworks */,
 				578CCF11278F235900A7FD8A /* Resources */,
@@ -223,9 +469,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578CCF2D278F235900A7FD8A /* Build configuration list for PBXNativeTarget "mobillium_caseUITests" */;
 			buildPhases = (
+				CE7D2CA9EB39330B14E835DE /* [CP] Check Pods Manifest.lock */,
 				578CCF19278F235900A7FD8A /* Sources */,
 				578CCF1A278F235900A7FD8A /* Frameworks */,
 				578CCF1B278F235900A7FD8A /* Resources */,
+				F363A09CD56656DDB87C9E6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,9 +533,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578CCF0D278F235800A7FD8A /* LaunchScreen.storyboard in Resources */,
-				578CCF0A278F235800A7FD8A /* Assets.xcassets in Resources */,
-				578CCF05278F235800A7FD8A /* Main.storyboard in Resources */,
+				578CCFBA278F25F700A7FD8A /* LaunchScreen.storyboard in Resources */,
+				578CCFB9278F25F700A7FD8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,16 +554,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1445102E0AE4E8BCAE6948E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobillium_case-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984DF729BF50070C3E8E4FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobillium_caseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7D2CA9EB39330B14E835DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobillium_case-mobillium_caseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC64E4DBE423BEB535F2A939 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobillium_case/Pods-mobillium_case-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobillium_case/Pods-mobillium_case-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobillium_case/Pods-mobillium_case-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F363A09CD56656DDB87C9E6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobillium_case-mobillium_caseUITests/Pods-mobillium_case-mobillium_caseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobillium_case-mobillium_caseUITests/Pods-mobillium_case-mobillium_caseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobillium_case-mobillium_caseUITests/Pods-mobillium_case-mobillium_caseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		578CCEF6278F235800A7FD8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578CCFAE278F25F700A7FD8A /* Transition.swift in Sources */,
+				5794F50D278F3D5800DD8D19 /* HomeHeaderCell.swift in Sources */,
+				578CCFAC278F25F700A7FD8A /* ModalTransition.swift in Sources */,
+				578CCFAD278F25F700A7FD8A /* PlaceOnWindowTransition.swift in Sources */,
+				5794F511278F3D6700DD8D19 /* HomeHeaderSliderCell.swift in Sources */,
+				578CCFB1278F25F700A7FD8A /* TransparentNavigationController.swift in Sources */,
+				578CCFB7278F25F700A7FD8A /* Keychain.swift in Sources */,
+				5794F52527906ECA00DD8D19 /* HomeDetailRoute.swift in Sources */,
+				578CCFB6278F25F700A7FD8A /* ApiLogger.swift in Sources */,
+				5794F51B278F738E00DD8D19 /* LoadingActivityIndicator.swift in Sources */,
+				5794F515278F3D7400DD8D19 /* HomeBodyCell.swift in Sources */,
+				578CCFB0278F25F700A7FD8A /* BaseViewController.swift in Sources */,
+				578CCFAB278F25F700A7FD8A /* Router.swift in Sources */,
+				578CCFD5278F32D700A7FD8A /* HomeScreenRoute.swift in Sources */,
+				578CCFB3278F25F700A7FD8A /* MainNavigationController.swift in Sources */,
+				5794F5232790287200DD8D19 /* HomeDetailViewModel.swift in Sources */,
+				5794F5212790287200DD8D19 /* HomeDetailRouter.swift in Sources */,
+				578CCFD2278F32C600A7FD8A /* HomeScreenViewController.swift in Sources */,
+				578CCFB8278F25F700A7FD8A /* AppDelegate.swift in Sources */,
+				5794F516278F3D7400DD8D19 /* HomeBodyCellModel.swift in Sources */,
+				5794F512278F3D6700DD8D19 /* HomeHeaderSliderCellModel.swift in Sources */,
 				578CCF08278F235800A7FD8A /* mobillium_case.xcdatamodeld in Sources */,
-				578CCF02278F235800A7FD8A /* ViewController.swift in Sources */,
-				578CCF37278F240200A7FD8A /* ClouseTypeAlias.swift in Sources */,
-				578CCEFE278F235800A7FD8A /* AppDelegate.swift in Sources */,
-				578CCF00278F235800A7FD8A /* SceneDelegate.swift in Sources */,
+				578CCFAF278F25F700A7FD8A /* PushTransition.swift in Sources */,
+				578CCFB4278F25F700A7FD8A /* ClouseTypeAlias.swift in Sources */,
+				578CCFB5278F25F700A7FD8A /* DataProvider.swift in Sources */,
+				578CCFDE278F337200A7FD8A /* ReusableProtocol.swift in Sources */,
+				5794F5222790287200DD8D19 /* HomeDetailViewController.swift in Sources */,
+				5794F518278F736100DD8D19 /* LoadingProtocol.swift in Sources */,
+				578CCFB2278F25F700A7FD8A /* BaseViewModel.swift in Sources */,
+				5794F50E278F3D5800DD8D19 /* HomeHeaderCellModel.swift in Sources */,
+				578CCFD3278F32C600A7FD8A /* HomeScreenViewModel.swift in Sources */,
+				578CCFC4278F2A6B00A7FD8A /* ApiRequestInterceptor.swift in Sources */,
+				578CCFD1278F32C600A7FD8A /* HomeScreenRouter.swift in Sources */,
+				578CCFA9278F25F700A7FD8A /* AppRouter.swift in Sources */,
+				578CCFAA278F25F700A7FD8A /* Animator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,25 +731,6 @@
 			targetProxy = 578CCF1E278F235900A7FD8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		578CCF03278F235800A7FD8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				578CCF04278F235800A7FD8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		578CCF0B278F235800A7FD8A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				578CCF0C278F235800A7FD8A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		578CCF25278F235900A7FD8A /* Debug */ = {
@@ -490,6 +851,7 @@
 		};
 		578CCF28278F235900A7FD8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0989B8CF3B49736DB1921301 /* Pods-mobillium_case.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -500,9 +862,9 @@
 				INFOPLIST_FILE = mobillium_case/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,6 +880,7 @@
 		};
 		578CCF29278F235900A7FD8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447FE7CB90396A0883C1A975 /* Pods-mobillium_case.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -528,9 +891,9 @@
 				INFOPLIST_FILE = mobillium_case/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +909,7 @@
 		};
 		578CCF2B278F235900A7FD8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC99F3DDF9F6B8DDA3EB031F /* Pods-mobillium_caseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +930,7 @@
 		};
 		578CCF2C278F235900A7FD8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8739511AB4791B9AB790EF /* Pods-mobillium_caseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,6 +951,7 @@
 		};
 		578CCF2E278F235900A7FD8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887987A81733ED7983C91027 /* Pods-mobillium_case-mobillium_caseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +970,7 @@
 		};
 		578CCF2F278F235900A7FD8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53795DC8C3B64E35A977F034 /* Pods-mobillium_case-mobillium_caseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
