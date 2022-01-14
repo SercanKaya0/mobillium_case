@@ -30,7 +30,7 @@ public class HomeHeaderCell: UICollectionViewCell, ReusableView {
     }()
     
     weak var viewModel: HomeHeaderCellProtocol?
-     static let cellID = "homeHeaderCell"
+    static public let cellID = "homeHeaderCell"
     private var timer : Timer?
     private var currentIndex = 0
     override init(frame: CGRect) {

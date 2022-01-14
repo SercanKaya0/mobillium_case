@@ -214,11 +214,9 @@ extension HomeDetailViewController {
     private func addDotImageView(){
         self.view.addSubview(dotImageView)
         NSLayoutConstraint.activate([
-            self.dotImageView.topAnchor.constraint(equalTo: rateCountLabel.topAnchor),
-            self.dotImageView.leadingAnchor.constraint(equalTo: rateCountLabel.trailingAnchor,constant: 10),
-            
-            
-            self.dotImageView.widthAnchor.constraint(equalToConstant: 4),
+            self.dotImageView.leadingAnchor.constraint(equalTo: rateCountLabel.trailingAnchor,constant: 16),
+                        self.dotImageView.centerYAnchor.constraint(equalTo: rateCountLabel.centerYAnchor),
+                        self.dotImageView.widthAnchor.constraint(equalToConstant: 4)
 
         ])
     }

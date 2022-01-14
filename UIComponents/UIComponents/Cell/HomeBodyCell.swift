@@ -10,7 +10,7 @@ import UIKit
 public class HomeBodyCell: UICollectionViewCell, ReusableView {
     
      weak var viewModel: HomeBodyCellProtocol?
-    static let cellID = "homeBodyCell"
+    static public let cellID = "homeBodyCell"
     
 
     private let subtitleStackView : UIStackView = {

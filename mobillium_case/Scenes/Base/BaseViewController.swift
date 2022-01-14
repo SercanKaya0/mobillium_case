@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import UIComponents
 class BaseViewController<V: BaseViewModelProtocol>: UIViewController,BaseViewController.LoadingProtocols{
     typealias LoadingProtocols = LoadingProtocol 
 

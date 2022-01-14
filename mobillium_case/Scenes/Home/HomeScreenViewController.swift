@@ -6,10 +6,10 @@
 //
 
 import UIKit
+import UIComponents
 
 final class HomeScreenViewController: BaseViewController<HomeScreenViewModel> {
     
-
     private let collectionView : UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -37,7 +37,7 @@ final class HomeScreenViewController: BaseViewController<HomeScreenViewModel> {
         addSubView()
         configrueContents()
     }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         viewModel.getMoviesNowPlaying()
@@ -106,6 +106,16 @@ extension HomeScreenViewController {
 }
 
 extension HomeScreenViewController : UICollectionViewDelegate{
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        let contentHeight = scrollView.contentSize.height
+        if offsetY > contentHeight - scrollView.frame.height {
+            if (offsetY > contentHeight - scrollView.frame.height * 4) && !viewModel.isLoading {
+                viewModel.reloadMoreData()
+            }
+            }
+            }
+    
  
 }
 
@@ -158,25 +168,9 @@ extension HomeScreenViewController : UICollectionViewDelegateFlowLayout {
                             layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
             return .zero
         }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-        if (section == 0){
-            return .zero
-        }else {
-                if self.viewModel.isLoading {
-                           return CGSize.zero
-                       } else {
-                           return CGSize(width: collectionView.bounds.size.width, height: 55)
-                       }
-        }
-        
-        
-    }
+
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        viewModel.reloadMoreData(at: indexPath)
-      
-        
-    }
+  
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if (indexPath.section == 0 ) {
             return .init(width: collectionView.frame.width, height: 256)

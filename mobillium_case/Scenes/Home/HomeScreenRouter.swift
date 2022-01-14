@@ -6,8 +6,5 @@
 //
 
 final class HomeScreenRouter: Router , HomeScreenRouter.Routes{
-
-
-    
     typealias Routes  = HomeDetailRoute
 }

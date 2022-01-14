@@ -7,11 +7,11 @@
 workspace 'mobillium_case'
 target 'mobillium_case' do
   project 'mobillium_case.xcodeproj'
-pod 'Alamofire', '~> 5.5'
-pod 'Kingfisher', '~> 7.0'
+
 
   # Pods for mobillium_case
-
+pod 'Alamofire', '~> 5.5'
+pod 'Kingfisher', '~> 7.0'
   target 'mobillium_caseTests' do
     inherit! :search_paths
     # Pods for testing
@@ -43,8 +43,7 @@ target 'UIComponents' do
   project 'UIComponents/UIComponents.xcodeproj'
   
   # Pods for UIComponents
-  
-  # Network
+  pod 'Kingfisher', '~> 7.0'
 
     
   target 'UIComponentsTests' do

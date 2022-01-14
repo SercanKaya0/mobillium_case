@@ -7,6 +7,8 @@
 
 import Foundation
 import DataSource
+import UIComponents
+
 
 protocol HomeScreenViewDataSource {
     
@@ -22,27 +24,41 @@ protocol HomeScreenViewEventSource {
 
 protocol HomeScreenViewProtocol: HomeScreenViewDataSource, HomeScreenViewEventSource {
     func didSelectRecipe(at indexPath: IndexPath)
-    func reloadMoreData(at indexPath: IndexPath)
+    func reloadMoreData()
     var isLoading: Bool {get set}
+    var currentPage : Int {get set}
+    
     
 }
 
 final class HomeScreenViewModel: BaseViewModel<HomeScreenRouter>, HomeScreenViewProtocol {
-    
+    var currentPage: Int = 1
     
     var isLoading: Bool = false
     
-    func reloadMoreData(at indexPath: IndexPath) {
-        isLoading = true
-            if let array = homeBodyCell {
-                let nextPage = array[indexPath.row].page ?? 1
-                    if indexPath.row == array.count - 15 && self.isLoading == true{
-                        getMoviesUpcoming(page: nextPage + 1)
-                    }
-        }
-      
-         
-      
+    
+    
+    
+    func reloadMoreData() {
+        if !self.isLoading {
+                   self.isLoading = true
+                   DispatchQueue.global().async {
+                       // Fake background loading task for 2 seconds
+                       sleep(2)
+                       if self.homeBodyCell?.isEmpty == false {
+                           self.currentPage += 1
+                           self.getMoviesUpcoming(page: self.currentPage)
+
+                       }else{
+                           self.currentPage = 1
+                           self.getMoviesUpcoming(page: self.currentPage)
+                       }
+                       DispatchQueue.main.async {
+                           self.isLoading = false
+                       }
+                   }
+               }
+
     }
     
     func didSelectRecipe(at indexPath: IndexPath) {
@@ -102,10 +118,10 @@ extension HomeScreenViewModel {
                 self.homeBodyCell = array
                 self.endRefreshing?()
                 self.reloadData?()
-                self.isLoading = false
+            
             case .failure(let error) :
                 self.endRefreshing?()
-                self.isLoading = false
+                
                 print(error)
             }
         }
